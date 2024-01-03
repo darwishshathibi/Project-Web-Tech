@@ -1,0 +1,82 @@
+*{
+    font-family:'Helvetica' ;
+    text-align: center;
+    /* border: 1px solid green; */
+}
+
+img{
+    margin: 0.50em;
+    border-radius: 5%;
+    
+}
+
+section{
+    margin: 7%;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+h3{
+    padding-top: 100px;
+}
+
+/*navbar css*/
+#siddiq_logo, #iium_logo {
+    width: 65px;
+    height: 65px;
+    margin: 0px 10px;
+}
+  
+.navbar .navbar-nav .nav-item a{
+    padding: 5px 20px;
+    margin: 0px 10px;
+}
+  
+.navbar .navbar-nav .nav-item a:hover{
+    color: blue;
+}
+  
+.navbar .navbar-nav .nav-item a.active{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+  
+.navbar .navbar-nav{
+    text-align: center;
+}
+/*end of navbar*/
+  
+/*footer css*/
+footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+footer #siddiq_logo_footer{
+    width: 65px;
+    height: 65px;
+    background-color: black;
+
+}
+  
+footer .contact_number .contact{
+    color: white;
+    background-color: black;
+    margin: 0px;
+}
+/* end of footer */
