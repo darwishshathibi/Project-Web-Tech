@@ -1,19 +1,17 @@
-*{
-    font-family:'Helvetica' ;
-    text-align: center;
+* {
     /* border: 1px solid green; */
+    font-family: 'Lexend Giga', sans-serif;
+    text-align: center;
+  }
+
+body{
+    font-family: 'Crimson Pro', serif;
 }
 
-img{
-    margin: 0.50em;
-    border-radius: 5%;
-    transform: scale(0.8);
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;    
-}
-
-img.in-view{
-    opacity: 1;
-    transform: scale(1);
+.pic{
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
 }
 
 section{

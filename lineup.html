@@ -6,15 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mahallah Siddiq</title>
   <link rel="stylesheet" href="styles/lineup.css">
+  <link rel="stylesheet" href="styles/animation.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles/scroll.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@300&family=Noto+Sans&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
 </head>
 
 <body>
+  <!-- scroll up button -->
+  <a href="javascript:void(0);" id="backToTop" class="back-to-top">
+    <i class="arrow"></i><i class="arrow"></i>
+  </a>
+
   <!-- navigation bar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
@@ -54,7 +65,7 @@
     <h3>mahallah siddiq representative</h3>
 
     <!-- principal profile -->
-    <article>
+    <article class="fade-in-up">
       <img class="photo" src="images/principal.png" alt="">
       <h5>PRINCIPAL</h5>
     </article>
@@ -62,93 +73,93 @@
     <!-- fellow profile -->
     <figure>
       <article class="multiphoto">
-        <img class="photo gap" src="images/fellow1.jpeg" alt="">
-        <img class="photo gap" src="images/fellow2.jpeg" alt="">
-        <img class="photo gap" src="images/fellow3.jpeg" alt="">
-        <img class="photo gap" src="images/fellow4.jpeg" alt="">
-        <img class="photo gap" src="images/fellow5.jpeg" alt="">
+        <img class="photo gap fade-in-left" src="images/fellow1.jpeg" alt="">
+        <img class="photo gap fade-in-up" src="images/fellow2.jpeg" alt="">
+        <img class="photo gap fade-in-right" src="images/fellow3.jpeg" alt="">
+        <img class="photo gap fade-in-up" src="images/fellow4.jpeg" alt="">
+        <img class="photo gap fade-in-up" src="images/fellow5.jpeg" alt="">
       </article>
-      <h5>FELLOWS</h5>
+      <h5 class="fade-in-up">FELLOWS</h5>
     </figure>
 
     <article class="multiphoto">
       <!-- vp profile -->
-      <figure>
+      <figure class="fade-in-left">
         <img class="photo" src="images/vp.jpg" alt="">
         <figcaption>
           <h5>VICE PRESIDENT</h5>
         </figcaption>
       </figure>
       <!-- president profile -->
-      <article>
+      <article class="fade-in-up">
         <img class="photo" src="images/press.jpeg" alt="">
         <h5>PRESIDENT</h5>
       </article>
       <!-- secretary profile -->
-      <figure>
+      <figure class="fade-in-right">
         <img class="photo" src="images/su.jpg" alt="">
         <figcaption>
           <h5>SECRETARY</h5>
         </figcaption>
       </figure>
       <!-- ce&t profile -->
-      <figure>
+      <figure class="fade-in-left">
         <img class="photo" src="images/ce&t.jpg" alt="">
         <figcaption>
           <h5>CULTURAL, EDUCATION<br>& TRAINING</h5>
         </figcaption>
       </figure>
       <!-- fc profile -->
-      <figure>
+      <figure class="fade-in-up">
         <img class="photo" src="images/fc.jpg" alt="">
         <figcaption>
           <h5>FINANCIAL<br>CONTROLLER</h5>
         </figcaption>
       </figure>
       <!-- w&r profile -->
-      <figure>
+      <figure class="fade-in-right">
         <img class="photo" src="images/w&r.jpg" alt="">
         <figcaption>
           <h5>WELFARE &<br>RESIDENTIAL</h5>
         </figcaption>
       </figure>
       <!-- d&t profile -->
-      <figure>
+      <figure class="fade-in-left">
         <img class="photo" src="images/d&t.jpg" alt="">
         <figcaption>
           <h5>DAKWAH &<br>TARBIAH</h5>
         </figcaption>
       </figure>
       <!-- media profile -->
-      <figure>
+      <figure class="fade-in-up">
         <img class="photo" src="images/media.jpg" alt="">
         <figcaption>
           <h5>MEDIA &<br>PUBLICATION</h5>
         </figcaption>
       </figure>
       <!-- pr profile -->
-      <figure>
+      <figure class="fade-in-right">
         <img class="photo" src="images/pr.jpg" alt="">
         <figcaption>
           <h5>PUBLIC RELATION &<br>INTERNATIONAL AFFAIRS</h5>
         </figcaption>
       </figure>
       <!-- ent profile -->
-      <figure>
+      <figure class="fade-in-left">
         <img class="photo" src="images/entre.jpg" alt="">
         <figcaption>
           <h5>ENTREPRENEURSHIP</h5>
         </figcaption>
       </figure>
       <!-- cs profile -->
-      <figure>
+      <figure class="fade-in-up">
         <img class="photo" src="images/cs.jpg" alt="">
         <figcaption>
           <h5>COMMUNITY<br>SERVICES</h5>
         </figcaption>
       </figure>
       <!-- s&r profile -->
-      <figure>
+      <figure class="fade-in-right">
         <img class="photo" src="images/sports.jpg" alt="">
         <figcaption>
           <h5>SPORTS &<br>RECREATIONAL</h5>
@@ -165,6 +176,9 @@
     </div>
   </footer>
   <!-- end of footer -->
+
+  <script src="script/scroll.js"></script>
+  <script src="script/animation.js"></script>
 </body>
 
 </html>

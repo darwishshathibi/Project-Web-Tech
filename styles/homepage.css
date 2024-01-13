@@ -1,7 +1,8 @@
-/* FILEPATH: /D:/Users/User/OneDrive - International Islamic University Malaysia/Documents/Web Tech Class/project/homepage.css */
-/* * {
-  border: 1px solid green;
-} */
+* {
+  /* border: 1px solid green; */
+  font-family: 'Lexend Giga', sans-serif;
+}
+
 
 #siddiq_logo, #iium_logo {
   width: 65px;
@@ -167,8 +168,8 @@
 }
 
 .image-container img{
-  width: 280px;
-  height: 300px;
+  width: 450px;
+  height: 450px;
 }
 
 .image-container .img-1{
@@ -196,3 +197,4 @@ footer .contact_number .contact{
   color: white;
   margin: 0px;
 }
+
