@@ -86,6 +86,11 @@ footer #siddiq_logo_footer{
     background-color: black;
 
 }
+
+footer .contact_number {
+    display: block;
+    text-align: left;
+}
   
 footer .contact_number .contact{
     color: white;

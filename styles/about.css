@@ -68,7 +68,7 @@ footer .contact_number .contact{
 }
 
 .content {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-wrap: nowrap;
   text-align: center;

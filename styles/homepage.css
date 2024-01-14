@@ -10,6 +10,10 @@
   margin: 0px 10px;
 }
 
+#nav{
+  background-color:  rgb(151, 151, 151);
+}
+
 .navbar .navbar-nav .nav-item a{
     padding: 5px 20px;
     margin: 0px 10px;
@@ -174,10 +178,8 @@
 
 .image-container .img-1{
   align-items: flex-start;
-}
-
-.image-container .img-2{
-  align-items: flex-end;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
 
 footer{
